@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.container {
+    width: 900px;
+    height: 700px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.box_1 {
+    width: 850px;
+    height: 550px;
+    border: 2px solid rgb(232, 224, 232);
+    margin: 30px;
+    border-radius: 40px;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(228, 225, 220);
+}
+/* inner box */
+.box_2 {
+    width:400px;
+    height: 550px;
+    border: 2px solid rgb(53, 28, 132);
+    border-radius: 40px;
+    background-color: #6441FD;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.top{
+    color: #D4CAFF;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.circle {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    background-color: #4A23CA;
+    background-image: linear-gradient(to bottom, #4A23CA, #6441FD  );
+    border: 2px solid rgb(78, 83, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_text {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.light_text {
+    font-size: large;
+    color: #978ef8;
+}
+
+.bottom_1 {
+   color: #FBFEFF;
+   font-weight: bold;
+   font-size: xx-large;
+}
+
+.bottom {
+   padding: 2px 30px;
+   color: #c2c0f2;
+   text-align:center;
+   font-size: large;
+}
+/* inner box */
+
+.column {
+    height: 550px;
+    width: 450px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    width: 350px;
+    height: 44px;
+    background-color: blueviolet;
+    margin: 9px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    border-radius: 10px;
+    padding: 4px 20px;
+}
+.symbol {
+     width: 40px;
+     margin-right: 5px;
+    
+}
+.text {
+    width: 180px;
+    margin-right: 5px;
+
+}
+.marks {
+    flex: 1;
+    text-align: center;
+    color: #969299;
+}
+
+.bold {
+    color:  #030a3d ;
+}
+
+.button {
+    width: 360px;
+    height: 44px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #303B59;
+    color: white;
+    font-size: 25px;
+    padding: 2px;
+    margin-top: 35px;
+}
+
+#reaction {
+    color: #ED797D;
+    background-color: #FFF6F5;
+}
+
+#memory {
+    color: #F3BB53;
+    background-color: #FCFCF2;
+}
+
+#verbal {
+    color: #3BB99B;
+    background-color:#F2FBFA ;
+}
+
+#visual {
+    color: #353D9D;
+    background-color: #F3F3FD;
+}
+
+#header {
+    font-size: 30px;
+    font-weight: bold;
+    width: 330px;
+    height: 44px;
+    margin-bottom: 30px;
+}
